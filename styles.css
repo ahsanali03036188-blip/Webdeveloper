@@ -1,0 +1,55 @@
+.container{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+grid-gap: 10px;
+}
+
+.zone{
+    font-size: 100px;
+    padding: 30px;
+    text-align: center;
+    transition: all;
+}
+.zone:hover{
+    box-shadow: 5px 5px 2px rgb(82, 80, 80);
+    transform: scale(0.9);
+}
+
+.red{
+    background: linear-gradient(rgb(104, 23, 23),rgb(231, 4, 4)
+    )    
+}
+.green{
+     background: linear-gradient(rgb(10, 114, 45),rgb(9, 241, 9)
+    )    
+}
+.blue{
+     background: linear-gradient(rgb(15, 68, 167),rgb(3, 104, 255)
+    )    
+}
+.yellow{
+     background: linear-gradient(rgb(181, 201, 5),rgb(255, 238, 0)
+    )    
+}
+.pink{
+     background: linear-gradient(rgb(173, 7, 146),rgb(255, 0, 221)
+    )    
+}
+.purple{
+     background: linear-gradient(rgb(139, 2, 202),rgb(183, 0, 255)
+    )    
+}
+red{
+    background: linear-gradient(rgb(133, 8, 8),rgb(231, 4, 4)
+    )    
+}
+.green{
+     background: linear-gradient(rgb(34, 138, 8),rgb(68, 231, 4)
+    )    
+}
+.blue{
+     background: linear-gradient(rgb(41, 17, 173),rgb(0, 17, 255) )
+   }
+.yellow{
+     background: linear-gradient(rgb(154, 170, 9),rgb(255, 238, 0) )
+}
